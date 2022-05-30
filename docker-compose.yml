@@ -11,8 +11,6 @@ services:
       NODE_ENV: production
     depends_on:
       - db
-    links:
-      - db
   db:
     image: mongo:4.0-xenial
     restart: always

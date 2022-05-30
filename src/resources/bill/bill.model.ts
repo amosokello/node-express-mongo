@@ -3,6 +3,11 @@ import Bill from '@/resources/bill/bill.interface';
 
 const BillSchema = new Schema(
     {
+        id: {
+            type: Number,
+            required: false,
+        },
+
         amount: {
             type: Number,
             required: true,
@@ -21,7 +26,12 @@ const BillSchema = new Schema(
         discount: {
             type: Number,
             required: false,
-        }
+        },
+
+        netPay: {
+            type: Number,
+            required: false,
+        },
     },
     {
         timestamps: true
