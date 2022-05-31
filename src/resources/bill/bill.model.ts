@@ -3,11 +3,6 @@ import Bill from '@/resources/bill/bill.interface';
 
 const BillSchema = new Schema(
     {
-        id: {
-            type: Number,
-            required: false,
-        },
-
         amount: {
             type: Number,
             required: true,

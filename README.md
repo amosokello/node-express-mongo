@@ -22,6 +22,10 @@ Create a `.env` file according to `.env.example` in the root dir and populate yo
 
 Run `npm run dev` for a dev server. Test the API by making post and get request at `http://localhost:3000/` on postman.
 
+## Testing the Application
+
+`npm test` to run tests without coverage
+`npm run test:coverage` to run coverage reports
 
 ## Support and contact details
 amosokello04@gmail.com
