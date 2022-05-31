@@ -24,8 +24,8 @@ Run `npm run dev` for a dev server. Test the API by making post and get request 
 
 ## Testing the Application
 
-`npm test` to run tests without coverage
-`npm run test:coverage` to run coverage reports
+- `npm test` to run tests without coverage
+- `npm run test:coverage` to run coverage reports
 
 ## Support and contact details
 amosokello04@gmail.com
